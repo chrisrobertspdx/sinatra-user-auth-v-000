@@ -29,7 +29,7 @@ class ApplicationController < Sinatra::Base
 
   post '/sessions' do
     @word = "hello"
-    puts @word
+    puts "hello"
     #redirect '/users/home'
   end
 
