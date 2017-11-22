@@ -28,7 +28,7 @@ class ApplicationController < Sinatra::Base
   end
 
   post '/sessions' do
-    @word = "hello"
+    @word = params.inspect
     @word
     #redirect '/users/home'
   end
