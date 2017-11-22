@@ -28,7 +28,8 @@ class ApplicationController < Sinatra::Base
   end
 
   post '/sessions' do
-    puts params[:password]
+    @word = "hello"
+    puts @word
     #redirect '/users/home'
   end
 
