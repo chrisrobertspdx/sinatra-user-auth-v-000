@@ -28,7 +28,7 @@ class ApplicationController < Sinatra::Base
   end
 
   post '/sessions' do
-    puts params
+    puts params.inspect
     #redirect '/users/home'
   end
 
